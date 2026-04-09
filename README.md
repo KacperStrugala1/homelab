@@ -1,2 +1,2 @@
-# home-lab
+# homelab
 My homelab configuration and dashboards
