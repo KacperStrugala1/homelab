@@ -1,0 +1,18 @@
+---
+# For configuration options and examples, please see:
+# https://gethomepage.dev/configs/bookmarks
+
+- Repos:
+    - Github:
+        - abbr: KS
+          href: https://github.com/KacperStrugala1
+
+- Reddit:
+    - Reddit:
+        - abbr: RE
+          href: https://reddit.com/r/homelab/
+
+- Entertainment:
+    - YouTube:
+        - abbr: YT
+          href: https://youtube.com/

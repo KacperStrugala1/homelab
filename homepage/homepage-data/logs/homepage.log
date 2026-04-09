@@ -1,0 +1,64 @@
+[2026-04-09T19:59:43.914Z] info: kubernetes.yaml was copied to the config folder
+[2026-04-09T19:59:45.191Z] info: docker.yaml was copied to the config folder
+[2026-04-09T19:59:45.192Z] info: services.yaml was copied to the config folder
+[2026-04-09T19:59:45.193Z] info: bookmarks.yaml was copied to the config folder
+[2026-04-09T19:59:45.194Z] info: widgets.yaml was copied to the config folder
+[2026-04-09T19:59:45.194Z] info: custom.css was copied to the config folder
+[2026-04-09T19:59:45.195Z] info: custom.js was copied to the config folder
+[2026-04-09T19:59:45.247Z] info: proxmox.yaml was copied to the config folder
+[2026-04-09T20:06:17.294Z] error: Failed to load services.yaml, please check for errors
+[2026-04-09T20:06:17.295Z] error: YAMLException: bad indentation of a sequence entry (10:7)
+
+  7 |         href: http://localhost/
+  8 |         description: Homepage is awesome
+  9 |     - Service #2:
+ 10 |       href: http://localhost:3030
+------------^
+ 11 |       description: Homelab
+ 12 | 
+[2026-04-09T20:06:17.803Z] error: Failed to load services.yaml, please check for errors
+[2026-04-09T20:06:17.803Z] error: YAMLException: bad indentation of a sequence entry (10:7)
+
+  7 |         href: http://localhost/
+  8 |         description: Homepage is awesome
+  9 |     - Service #2:
+ 10 |       href: http://localhost:3030
+------------^
+ 11 |       description: Homelab
+ 12 | 
+[2026-04-09T20:06:18.525Z] error: Failed to load services.yaml, please check for errors
+[2026-04-09T20:06:18.526Z] error: YAMLException: bad indentation of a sequence entry (10:7)
+
+  7 |         href: http://localhost/
+  8 |         description: Homepage is awesome
+  9 |     - Service #2:
+ 10 |       href: http://localhost:3030
+------------^
+ 11 |       description: Homelab
+ 12 | 
+[2026-04-09T20:06:21.183Z] error: Failed to load services.yaml, please check for errors
+[2026-04-09T20:06:21.183Z] error: YAMLException: bad indentation of a sequence entry (10:7)
+
+  7 |         href: http://localhost/
+  8 |         description: Homepage is awesome
+  9 |     - Service #2:
+ 10 |       href: http://localhost:3030
+------------^
+ 11 |       description: Homelab
+ 12 | 
+[2026-04-09T20:06:42.742Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:06:46.472Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:06:50.534Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:06:57.487Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:07:40.403Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:10.583Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:10.600Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:10.983Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:44.963Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:44.964Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:45.563Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:08:58.426Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:11:35.428Z] warn: <service-helpers> Error parsing service "Service 2" from config. Ensure required fields are present.
+[2026-04-09T20:13:26.715Z] warn: <service-helpers> Error parsing service "Portainer" from config. Ensure required fields are present.
+[2026-04-09T20:13:26.732Z] warn: <service-helpers> Error parsing service "Portainer" from config. Ensure required fields are present.
+[2026-04-09T20:13:28.418Z] warn: <service-helpers> Error parsing service "Portainer" from config. Ensure required fields are present.
