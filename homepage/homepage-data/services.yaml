@@ -14,8 +14,9 @@
         icon: portainer
         ping: https://192.168.43.45:9443
 
-- My Second Group:
-    - My Second Service:
-        href: http://localhost/
-        description: Homepage is the best
+- Monitoring:
+    - Kuma Uptime:
+        href: http://192.168.43.45:3001
+        description: Kuma Uptime
+        icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/uptime-kuma.svg
 
