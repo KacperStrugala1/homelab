@@ -62,3 +62,150 @@
 [2026-04-09T20:13:26.715Z] warn: <service-helpers> Error parsing service "Portainer" from config. Ensure required fields are present.
 [2026-04-09T20:13:26.732Z] warn: <service-helpers> Error parsing service "Portainer" from config. Ensure required fields are present.
 [2026-04-09T20:13:28.418Z] warn: <service-helpers> Error parsing service "Portainer" from config. Ensure required fields are present.
+[2026-04-12T08:46:27.740Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T08:46:27.803Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T09:15:30.685Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T09:15:30.698Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T19:40:57.330Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T19:40:57.395Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T19:46:21.316Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T19:46:21.337Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T20:04:20.158Z] error: end of the stream or a document separator is expected (5:13)
+
+ 2 | # For configuration options and examples, pl ...
+ 3 | # https://gethomepage.dev/configs/services/
+ 4 | IP_ADDR=$(hostname -I | awk '{print $1}')
+ 5 | - Containers:
+-----------------^
+ 6 |     - HomeLab:
+ 7 |         href: http://$IP_ADDR:3000
+[2026-04-12T20:04:20.163Z] error: end of the stream or a document separator is expected (5:13)
+
+ 2 | # For configuration options and examples, pl ...
+ 3 | # https://gethomepage.dev/configs/services/
+ 4 | IP_ADDR=$(hostname -I | awk '{print $1}')
+ 5 | - Containers:
+-----------------^
+ 6 |     - HomeLab:
+ 7 |         href: http://$IP_ADDR:3000
+[2026-04-12T20:04:20.173Z] error: Failed to load services.yaml, please check for errors
+[2026-04-12T20:04:20.174Z] error: YAMLException: end of the stream or a document separator is expected (5:13)
+
+ 2 | # For configuration options and examples, pl ...
+ 3 | # https://gethomepage.dev/configs/services/
+ 4 | IP_ADDR=$(hostname -I | awk '{print $1}')
+ 5 | - Containers:
+-----------------^
+ 6 |     - HomeLab:
+ 7 |         href: http://$IP_ADDR:3000
+[2026-04-12T20:04:20.230Z] error: Failed to load services.yaml, please check for errors
+[2026-04-12T20:04:20.232Z] error: YAMLException: end of the stream or a document separator is expected (5:13)
+
+ 2 | # For configuration options and examples, pl ...
+ 3 | # https://gethomepage.dev/configs/services/
+ 4 | IP_ADDR=$(hostname -I | awk '{print $1}')
+ 5 | - Containers:
+-----------------^
+ 6 |     - HomeLab:
+ 7 |         href: http://$IP_ADDR:3000
+[2026-04-12T20:04:21.442Z] error: Failed to load services.yaml, please check for errors
+[2026-04-12T20:04:21.443Z] error: YAMLException: end of the stream or a document separator is expected (5:13)
+
+ 2 | # For configuration options and examples, pl ...
+ 3 | # https://gethomepage.dev/configs/services/
+ 4 | IP_ADDR=$(hostname -I | awk '{print $1}')
+ 5 | - Containers:
+-----------------^
+ 6 |     - HomeLab:
+ 7 |         href: http://$IP_ADDR:3000
+[2026-04-12T20:04:25.202Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T20:04:25.207Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T20:04:26.393Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T20:04:26.397Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T20:11:02.750Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T20:11:02.755Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T20:11:03.753Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T20:11:03.760Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]
+[2026-04-12T20:11:07.756Z] error: <httpProxy> Error calling https://api.github.com/repos/gethomepage/homepage/releases...
+[2026-04-12T20:11:07.759Z] error: <httpProxy> [
+  500,
+  Error: getaddrinfo EAI_AGAIN api.github.com
+      at ignore-listed frames {
+    errno: -3001,
+    code: 'EAI_AGAIN',
+    syscall: 'getaddrinfo',
+    hostname: 'api.github.com'
+  }
+]

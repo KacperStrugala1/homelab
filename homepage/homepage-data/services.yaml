@@ -1,22 +1,21 @@
 ---
 # For configuration options and examples, please see:
 # https://gethomepage.dev/configs/services/
-
 - Containers:
     - HomeLab:
-        href: http://192.168.43.45:3000
+        href: http://kstrugal.local:3000
         description: HomeLab dashboard
         icon: homepage
-        ping: http://192.168.43.45:3000
+        ping: http://kstrugal.local:3000
     - Portainer:
-        href: https://192.168.43.45:9443/#!/3/docker/dashboard
+        href: https://kstrugal.local:9443/#!/3/docker/dashboard
         description: Containers management GUI
         icon: portainer
-        ping: https://192.168.43.45:9443
+        ping: https://kstrugal.local:9443
 
 - Monitoring:
     - Kuma Uptime:
-        href: http://192.168.43.45:3001
+        href: http://kstrugal.local:3001
         description: Kuma Uptime
         icon: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/uptime-kuma.svg
 
