@@ -61,3 +61,25 @@ storage/
 .cach/
 tmp/
 
+docker/**/etc-pihole/logrotate
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log
+*.log.*
+logs/
+*.out
+docker/**/data/
+docker/**/config/
+docker/**/logs/
+docker/**/run/
+docker/**/tmp/
+
+# Pi-hole specific
+docker/pihole/etc-pihole/*
+docker/pihole/etc-dnsmasq.d/*
+
+
+!docker/pihole/etc-pihole/*.conf
+!docker/pihole/etc-dnsmasq.d/*.conf
