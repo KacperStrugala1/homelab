@@ -1,0 +1,42 @@
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: "*"
+    ports:
+      - 3000:3000
+    networks:
+      - homelab
+    volumes:
+      - ./homepage-data:/app/config
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    restart: unless-stopped
+  uptime-kuma:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime-kuma
+    restart: always
+    ports:
+      - "3001:3001"  # This maps the container port "3001" to the host port "3001"
+    volumes:
+      - /path/to/data:/app/data  # Configuring persistent storage
+    environment:
+      - TZ=UTC  # Set the timezone (change to your preferred local timezone so monitoring times are the same)        - UMASK=0022  # Set your file permissions manually
+    networks:
+      - homelab  # add your own custom network config
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3001"]
+      interval: 30s
+      retries: 3
+      start_period: 10s
+      timeout: 5s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  homelab:
+    external: true
+    name: homelab_network
