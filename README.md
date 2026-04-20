@@ -1,6 +1,7 @@
 # homelab
 My homelab configuration and dashboards
-<img width="1107" height="517" alt="image" src="https://github.com/user-attachments/assets/64da7edb-5cd5-49da-bea5-6ba11cf2e2a6" />
+<img width="1294" height="560" alt="image" src="https://github.com/user-attachments/assets/5bde1d38-ec7c-417e-9498-1a42932eb85c" />
+
 ## Steps to achive ##
 1. Build own dashboard manager
 2. Make k3s cluster
